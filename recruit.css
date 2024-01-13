@@ -142,3 +142,10 @@ footer {
     and footer heights */
   }
 }
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+  border-radius: 100%;
+}
