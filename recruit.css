@@ -1,0 +1,144 @@
+/* Global styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.jaber{
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-family: "Gill Sans Extrabold", sans-serif;
+  color: rgb(20, 19, 19);
+
+  
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #cc30a5;
+  text-decoration: none;
+}
+p{
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: sans-serif;
+  
+}
+.ariana{
+  font-family: "Gill Sans Extrabold", sans-serif;
+  font-size: 2rem;
+  color: black;
+  margin-top: 0.5rem ;
+
+}
+a:hover {
+  color: #742618;
+  text-decoration: underline;
+}
+
+.social-link {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #faf8f8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+
+.nav-link {
+  font-size: 1.2rem;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+}
+.navbar-brand img {
+  margin-right: 1rem;
+
+}
+
+
+/* Jumbotron styles */
+.jumbotron {
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+  margin-bottom: 0;
+  padding-bottom: 200px;
+  padding-top: 200px;
+
+}
+.jumbotron::before {
+  content: "";
+  display: block;
+  position: centre;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;       
+  background-color: rgba(0,0,0,0.5);
+  
+}
+
+
+/* Services styles */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-family: "Gill Sans", sans-serif;
+}
+
+/* Footer styles */
+footer {
+  padding: 1rem 0;
+}
+
+.social-link i {
+  transition: all 0.3s ease-in-out;
+}
+
+.social-link:hover i {
+  transform: scale(1.2);
+}
+/* Custom CSS */
+@media (min-height: 600px) {
+  #services,
+  #about-us,
+  #contact-us {
+    min-height: calc(100vh - 150px); /* Adjust the value (150px) based on your header 
+    and footer heights */
+  }
+}
